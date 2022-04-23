@@ -481,3 +481,15 @@ textarea.form-control {
   max-width: 18px;
 }
 
+@media (min-width: 768px) {
+  .split-section__game {
+    order: initial;
+    margin-bottom: 0;
+  }
+  .split-section__game {
+    max-width: 50%;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
