@@ -481,15 +481,16 @@ textarea.form-control {
   max-width: 18px;
 }
 
-@media (min-width: 768px) {
-  .split-section__game {
-    order: initial;
-    margin-bottom: 0;
-  }
-  .split-section__game {
-    max-width: 50%;
-    width: 100%;
-    padding-right: 25px;
-    padding-left: 25px;
-  }
+.split-section__game{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.split-section__game iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
